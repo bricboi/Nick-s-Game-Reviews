@@ -19,7 +19,6 @@ header a {
 
 #navigation {
     list-style-type: none;
-    text-decoration: none;
     float: right;
     margin-top: 5px;
 }
@@ -33,8 +32,16 @@ header a {
     text-decoration: none;
 }
 
+#navigation a:hover {
+    border-bottom: 2px solid white;
+}
+
 #logo {
     float: left;
     margin: 10px 0 0 10px;
     width: 100%;
+}
+
+.active {
+    border-bottom: 2px solid white;
 }
