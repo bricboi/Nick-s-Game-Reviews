@@ -9,6 +9,7 @@
 header {
     background-color: #383838;
     height: 90px;
+    width: 100%;
 }
 
 header a {
@@ -44,4 +45,30 @@ header a {
 
 .active {
     border-bottom: 2px solid white;
+}
+
+/* Footer styling */
+
+footer {
+    background-color: #383838;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+}
+
+footer a {
+    color: white;
+    font-size: 150%;
+    margin-right: 20px;
+}
+
+footer div {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
 }
