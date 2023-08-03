@@ -4,6 +4,15 @@
     border: none;
 }
 
+hr {
+    margin-top: 10px;
+    border-bottom: 1px solid #383838;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
 
 /* Header styling */
 
@@ -52,7 +61,11 @@ header a {
 /* Welcome section */
 
 #welcome {
-    overflow: hidden;
+    text-align: center;
+}
+
+#welcome p {
+    margin-top: 10px;
 }
 
 
@@ -77,5 +90,5 @@ footer div {
 footer p {
     color: white;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
 }
