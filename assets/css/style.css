@@ -4,18 +4,19 @@
     border: none;
 }
 
+
 /* Header styling */
 
 header {
     background-color: #383838;
     height: 90px;
-    width: 100%;
-    position: absolute;
+    position: hidden;
 }
 
 header a {
     color: white;
 }
+
 
 /* Logo and navigation styling */
 
@@ -47,13 +48,19 @@ header a {
     border-bottom: 2px solid white;
 }
 
+
+/* Welcome section */
+
+#welcome {
+    overflow: hidden;
+}
+
+
 /* Footer styling */
 
 footer {
     background-color: #383838;
     height: 90px;
-    width: 100%;
-    position: absolute;
 }
 
 footer a {
