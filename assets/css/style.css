@@ -112,7 +112,10 @@ header a {
     margin-bottom: 10px;
     text-align: left;
     overflow: none;
+}
 
+.review-text p {
+    margin-top: 20px;
 }
 
 .review-image {
@@ -125,6 +128,9 @@ header a {
     width: 50vw;
 }
 
+.review-box a {
+    color: black;
+}
 
 /* Footer styling */
 
