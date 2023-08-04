@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {
@@ -9,8 +15,12 @@ hr {
     border-bottom: 1px solid #383838;
 }
 
+h1 {
+    font-size: 185%;
+}
+
 h2 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 
@@ -60,9 +70,9 @@ header a {
 }
 
 
-/* Welcome section */
+/* Title section section styling */
 
-#welcome {
+#title-section {
     width: 50%;
     font-size: 100%;
     margin-left: auto;
@@ -70,8 +80,37 @@ header a {
     text-align: center;
 }
 
-#welcome p {
+#title-section p {
     margin-top: 10px;
+}
+
+
+/* Recently reviewed section styling */
+
+#recent-reviews {
+    text-align: center;
+}
+
+/* review box styling */
+
+.review-box {
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.review-box h3 {
+    margin-top: 10px;
+}
+
+.review-box p {
+    display: inline;
+    width: 50%;
+}
+
+.review-box img {
+    display: inline;
 }
 
 
@@ -99,6 +138,7 @@ footer p {
     margin-top: 10px;
 }
 
+
 /* media queries */
 
 @media screen and (max-width: 2560px) {
@@ -106,9 +146,13 @@ footer p {
         font-size: 150%;
     }
 
-    #welcome {
+    #title-section {
         width: 50%;
     }
+
+    /* .review-box {
+        width: 95%;
+    } */
 }
 
 @media screen and (max-width: 1024px) {
@@ -116,10 +160,13 @@ footer p {
         font-size: 100%;
     }
 
-    #welcome {
+    #title-section {
         width: 50%;
-        font-size: 100%;
     }
+
+    /* .review-box {
+        width: 50%;
+    } */
 }
 
 @media screen and (max-width: 768px) {
@@ -127,8 +174,12 @@ footer p {
         font-size: 100%;
     }
 
-    #welcome {
+    #title-section {
         width: 95%;
         font-size: 100%;
     }
+
+    /* .review-box {
+        width: 95%;
+    } */
 }
