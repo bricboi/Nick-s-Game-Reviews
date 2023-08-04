@@ -18,8 +18,8 @@ h2 {
 
 header {
     background-color: #383838;
-    height: 90px;
     position: hidden;
+    width: 100%;
 }
 
 header a {
@@ -30,9 +30,11 @@ header a {
 /* Logo and navigation styling */
 
 #navigation {
-    list-style-type: none;
-    float: right;
-    margin-top: 50px;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: #292929;
+    display: block;
 }
 
 #navigation li {
@@ -49,8 +51,8 @@ header a {
 }
 
 #logo {
-    float: left;
-    margin: 10px 0 0 10px;
+    padding: 10px;
+    display: block;
 }
 
 .active {
@@ -61,6 +63,10 @@ header a {
 /* Welcome section */
 
 #welcome {
+    width: 50%;
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -73,7 +79,7 @@ header a {
 
 footer {
     background-color: #383838;
-    height: 90px;
+    width: 100%;
 }
 
 footer a {
@@ -91,4 +97,38 @@ footer p {
     color: white;
     text-align: center;
     margin-top: 10px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 2560px) {
+    body {
+        font-size: 150%;
+    }
+
+    #welcome {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 100%;
+    }
+
+    #welcome {
+        width: 50%;
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 100%;
+    }
+
+    #welcome {
+        width: 95%;
+        font-size: 100%;
+    }
 }
