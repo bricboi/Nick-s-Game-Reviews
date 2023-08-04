@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 
@@ -85,7 +85,7 @@ header a {
 }
 
 
-/* Recently reviewed section styling */
+/* Review section styling */
 
 #reviews {
     text-align: center;
@@ -109,13 +109,20 @@ header a {
 .review-text {
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
     text-align: left;
     overflow: none;
 
 }
 
 .review-image {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.review-image img {
+    width: 50vw;
 }
 
 
