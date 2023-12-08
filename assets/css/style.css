@@ -28,7 +28,6 @@ h2 {
 
 header {
     background-color: #383838;
-    position: hidden;
     width: 100%;
 }
 
@@ -112,7 +111,6 @@ header a {
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: left;
-    overflow: none;
 }
 
 .review-text p {
@@ -139,6 +137,11 @@ header a {
     text-align: right;
     margin-right: 40%;
     margin-top: 20px;
+    margin-bottom: 350px;
+}
+
+.form-text {
+    margin-top: 20px;
 }
 
 input {
@@ -157,6 +160,8 @@ input {
 footer {
     background-color: #383838;
     width: 100%;
+    margin-top: 100px;
+    padding: 20px 0;
 }
 
 footer a {
