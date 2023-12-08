@@ -98,6 +98,7 @@ header a {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
 }
 
 .review-box h3 {
@@ -130,6 +131,25 @@ header a {
 
 .review-box a {
     color: black;
+}
+
+/* Form styling */
+
+#form-box {
+    text-align: right;
+    margin-right: 40%;
+    margin-top: 20px;
+}
+
+input {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #383838;
+}
+
+#submit {
+    padding: 10px;
+    border: 1px solid #383838;
 }
 
 /* Footer styling */

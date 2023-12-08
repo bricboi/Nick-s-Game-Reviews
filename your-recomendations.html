@@ -29,9 +29,41 @@
     </section>
     <hr />
     <section id="reviews">
-      <form action="https://formdump.codeinstitute.net" method="POST">
-        <label for=""></label>
-      </form>
+      <div class="review-box">
+        <p>
+          Please feel free to suggest a game I can play in the future, so that I
+          can add more reviews in the fututre.
+        </p>
+      </div>
+      <div id="form-box">
+        <form action="https://formdump.codeinstitute.net" method="POST">
+          <label for="name">Your Name*:</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Write your name"
+            required
+            autofocus
+          /><br />
+          <label for="game_title">Game Title*:</label>
+          <input
+            type="text"
+            name="game_title"
+            id="game_title"
+            placeholder="Name of the game"
+            required
+          /><br />
+          <label for="game_link">Game Link (optional):</label>
+          <input
+            type="text"
+            name="game_link"
+            id="game_link"
+            placeholder="Link to the game website"
+          /><br />
+          <input type="submit" value="Submit" id="submit" />
+        </form>
+      </div>
     </section>
     <footer>
       <p>
