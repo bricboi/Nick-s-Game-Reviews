@@ -32,6 +32,7 @@ The footer contains a message that encourages the user to play these games if th
 ### Possible features:
 
 * Automatic updating of the recent reviews page. When a new review is added to the All reviews page, it gets added to the top of the Recent reviews section and older reviews get removed.
+* Colour changing links when mouse hovers over them.
 
 ----------
 
@@ -40,13 +41,6 @@ The footer contains a message that encourages the user to play these games if th
 ### Browser testing:
 
 The website has been tested on different web browsers such ass oprah, chrome, edge etc. The website is responsive and the website looks the same and functions the same on all of them. Clickable links, logo and icons function as they should. Form submission also works as it should.
-
-### Validator testing:
-
-* HTML
-  * Using [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbricboi.github.io%2FNick-s-Game-Reviews%2F), It returns with no errors or warnings
-* CSS
-  * Using [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbricboi.github.io%2FNick-s-Game-Reviews%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv), It returns with no errors or warnings
 
 ### Bugs:
 
