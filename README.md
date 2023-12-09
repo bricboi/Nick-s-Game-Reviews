@@ -39,7 +39,7 @@ The footer contains a message that encourages the user to play these games if th
 
 ### Browser testing:
 
-The website has been tested on different web browsers such ass oprah, chrome, edge etc. The website is responsive and the website looks the same and functions the same on all of them.
+The website has been tested on different web browsers such ass oprah, chrome, edge etc. The website is responsive and the website looks the same and functions the same on all of them. Clickable links, logo and icons function as they should. Form submission also works as it should.
 
 ### Validator testing:
 
@@ -51,11 +51,12 @@ The website has been tested on different web browsers such ass oprah, chrome, ed
 ### Bugs:
 
 * ~~"Read More" links do not work properly~~
-* Navigation bar is not fully responsive for phone sizes
+* ~~Navigation bar is not fully responsive for phone sizes~~
 
 ### Fixed bugs:
 
 * "Read More" links now take you to the corresponding review
+* Navigation bar is now fully responsive for phone sizes
 
 ----------
 
@@ -64,4 +65,4 @@ The website has been tested on different web browsers such ass oprah, chrome, ed
 * The deployment process was as follows using GitHub pages:
   * Navigate to the settings tab in Github Repository and click pages
   * Select branch and click main
-  * Press save and the Site becomes live [Nick's Game Reviews link](https://bricboi.github.io/Nick-s-Game-Reviews/)
+  * Press save and the Site becomes live: [Nick's Game Reviews link](https://bricboi.github.io/Nick-s-Game-Reviews/)
