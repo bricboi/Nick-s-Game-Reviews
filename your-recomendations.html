@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    <!-- Header and Navigation -->
     <header>
       <h1 id="logo"><a href="index.html">Nick's Game Reviews</a></h1>
       <nav>
@@ -23,22 +24,30 @@
         </ul>
       </nav>
     </header>
+
+    <!-- Title section -->
     <section id="title-section">
       <h2>Add your recomendations!</h2>
       <p>Add recomendations for games I can play in the future!</p>
     </section>
     <hr />
+
+    <!-- Your recomendations form page -->
     <section id="reviews">
       <div>
+        <!-- Paragraph section for  -->
         <div id="title-section">
           <p>
             Please feel free to suggest a game I can play in the future in the
             form below, so that I can add more reviews in the fututre.
           </p>
         </div>
+
+        <!-- Game Recomendation Form -->
         <div id="form-box">
           <form action="https://formdump.codeinstitute.net" method="POST">
             <label for="name">Your Name*:</label>
+            <!-- required input for name -->
             <input
               type="text"
               name="name"
@@ -47,7 +56,9 @@
               required
               autofocus
             /><br />
+
             <label for="game_title">Game Title*:</label>
+            <!-- required input for game title -->
             <input
               type="text"
               name="game_title"
@@ -55,7 +66,9 @@
               placeholder="Name of the game"
               required
             /><br />
+
             <label for="game_link">Game Link (optional):</label>
+            <!-- optional input for link to a game's website -->
             <input
               type="text"
               name="game_link"
@@ -67,6 +80,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Footer with links -->
     <footer>
       <p>
         If you wish to play these games yourself you can get most of them from
@@ -76,6 +91,7 @@
         If a game is not avaliable on steam you can find the game developers
         website by searching on google.
       </p>
+      <!-- Clickable icons -->
       <div>
         <a
           href="https://store.steampowered.com/"
@@ -92,6 +108,7 @@
       </div>
     </footer>
 
+    <!-- Scripts -->
     <script
       src="https://kit.fontawesome.com/22c1bb75ea.js"
       crossorigin="anonymous"

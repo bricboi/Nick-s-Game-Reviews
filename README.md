@@ -44,14 +44,14 @@ The website has been tested on different web browsers such ass oprah, chrome, ed
 ### Validator testing:
 
 * HTML
-  * [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbricboi.github.io%2FNick-s-Game-Reviews%2F)
+  * Using [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbricboi.github.io%2FNick-s-Game-Reviews%2F), It returns with no errors or warnings
 * CSS
-  * [CSS Validator](https://codebeautify.org/cssvalidate#)
+  * Using [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbricboi.github.io%2FNick-s-Game-Reviews%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv), It returns with no errors or warnings
 
 ### Bugs:
 
 * ~~"Read More" links do not work properly~~
-* Navigation bar is not fully responsive for phone sizes 
+* Navigation bar is not fully responsive for phone sizes
 
 ### Fixed bugs:
 
